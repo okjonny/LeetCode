@@ -1,3 +1,13 @@
+#
+# @lc app=leetcode id=1 lang=python3
+#
+# [1] Two Sum
+#
+
+# @lc code=start
+import enum
+
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # return indices of target
@@ -10,3 +20,6 @@ class Solution:
                 return [index, seen_nums[complement]]
 
             seen_nums[value] = index
+
+# @lc code=end
+
