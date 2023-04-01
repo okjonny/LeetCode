@@ -6,6 +6,7 @@
 
 # @lc code=start
 import enum
+#writing some comments
 
 
 class Solution:
